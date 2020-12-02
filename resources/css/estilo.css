@@ -1,0 +1,192 @@
+/*************************/
+/* GENERAL CONTENT */
+body, html{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F0F2FF;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+/*************************/
+/*************************/
+
+/*************************/
+/* HEADER CONTENT */
+.header {
+    height: 150px;
+    background: #c08779d0;
+    color: rgb(235, 227, 227);
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 100%;
+    margin-bottom: 25px;
+    height: auto;
+}
+
+.header-text{
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 100%;
+    height: auto;
+}
+/*************************/
+/*************************/
+
+
+/*************************/
+/* CARD CONTENT */
+.card-wrapper {
+    display:flex;
+    justify-content:center
+}
+
+.tooltip{
+    border-radius: 10px;
+    width: 90%;
+    background-color: rgb(255, 217, 136);
+}
+
+.tooltip-text{
+}
+
+.exclam-tip{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.card-wrapper > div {
+    margin: 10px;
+}
+
+.card{
+    width: 30%;
+}
+
+.card-container {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.card-img-container { 
+    width: 100%;
+    height: 80%;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-text-container{
+    height: 20%;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-container {
+    background: #dcdcdc;
+}
+/*************************/
+/*************************/
+
+/* BUTTON CONTENT*/
+
+.btn-wrapper {
+    display:flex;
+    justify-content:center
+}
+
+.btn-wrapper > div {
+    margin: 10px;
+}
+
+.btn{
+    width: 15%;
+    height: 46px;
+}
+
+.btn-toggle {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(85, 113, 165);
+    border: 2px rgb(85, 113, 165);
+    border-radius: 5px;
+    color:white;
+}
+
+.btn-toggle:hover {
+    background-color: rgb(139, 154, 180); /* Green */
+}
+
+.btn-accept { 
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(85, 165, 92);
+    border: 2px rgb(85, 165, 92);
+    border-radius: 5px;
+    color:white;
+}
+
+.btn-accept:hover {
+    background-color: rgb(139, 180, 146); /* Green */
+}
+
+.btn-deny {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(165, 90, 85);
+    border: 2px rgb(165, 90, 85);
+    border-radius: 5px;
+    color:white;
+}
+
+.btn-deny:hover {
+    background-color: rgb(180, 139, 139); /* Green */
+}
+
+
+.btn-banner {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(211, 195, 102);
+    border: 2px rgb(211, 195, 102);
+    border-radius: 5px;
+    color:white;
+}
+
+.btn-banner:hover {
+    background-color: rgb(218, 212, 178); /* Green */
+}

@@ -1,0 +1,57 @@
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+}
+
+.card-body {
+    background-color: #dcdcdc;
+}
+
+.video-deck .card {
+    cursor: pointer;
+    display: block;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.card-iframe{
+    width: 560px;
+}
+
+.row-iframe{
+    align-content: center;
+    display: block;
+}
+.col-4 {
+    background-color: transparent;
+}
+
+.anchor{
+    display: block;
+    text-align: center;
+    padding: inherit;
+    
+}
+
+body::after {
+    background-image: url('../images/usercentrics.jpg');
+    content: "";
+    opacity: 0.2;
+    top: 30;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
